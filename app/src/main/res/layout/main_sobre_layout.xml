@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FDEAE4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolBarSobre"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/baseline_arrow_back" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="-100dp"
+        android:layout_width="2000dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+
+
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:textStyle="bold"
+        android:text="             Ultima atualização 24/04/2023 \n\n                           Versão 8.4.4\n\n
+                     Sobre Ache Aqui\n O Ache Aqui é um softaware capaz de facilitar a vida  das pessoas que perdem
+um item pessoal em algum lugar, permitindo encontrar o item com mais eficiência, além poder compartilhar seu item dentro do software "
+        app:layout_anchorGravity="center" />
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
